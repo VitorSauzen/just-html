@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site HTML</title>
+</head>
+<body>
+    <style>
+        * {
+            font-family:'Courier New', Courier, monospace
+        }
+        body {
+            margin: 0 20px;
+            padding: auto;
+        }
+        a {
+            color: #00008b;
+            text-decoration: none;
+        }
+        h1 {
+            color: #ff8c00;
+        }
+        h2, h3, h4, h5, h6 {
+            color: #00008b;
+        }
+        hr {
+            border: 1px solid #a263ef;
+        }
+    </style>
+
+    <h1 style="margin: 20px 0 0; text-align: center">Site com <strong>HTML!</strong></h1>
+        <br><hr>
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#origem">Origem do HTML</a></li>
+            <li><a href="#tags">O que são tags</a></li>
+            <li><a href="#atributos">O que são atributos</a></li>
+            <li><a href="#tags-exemplos">Exemplos de tags</a></li>
+            <li><a href="#atributos-exemplos">Exemplos de atributos</a></li>
+            <li><a href="#citacao">Citação</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+
+        <br><hr>
+        <h2 id="origem">Origem do HTML <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <p>
+            O <strong><abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr></strong> foi criado por <i>Tim Berners-Lee</i> em <b>1991</b>.
+        </p>
+        <p>
+            <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr> <mark>não é uma <strong><u>linguagem de programação</u></strong></mark>, <em>é uma <mark><strong><u>linguagem de marcação</u></strong></mark></em> que define a estrutura de uma página web.
+        </p>
+        <p>
+            A sigla significa <b><i>HyperText Markup Language</i></b> ou em português <i><b>Linguagem de Marcação de Hipertexto.</i></b></p>
+        </p>
+        <br><hr>
+
+
+        <h2 id="tags">O que são tags <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <p>
+            As <mark>Tags</mark> são <strong>elementos</strong> que compõem a estrutura de um documento <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr>.
+        </p>
+        <p>
+            Elas são delimitadas por <u><em>caracteres especiais</em> (<code>&lt;Tag&gt;&lt;/Tag&gt;</code>)</u> e são utilizadas para <strong>definir a estrutura e o conteúdo de uma página web.</strong>
+        </p>
+
+        <br><hr>
+        <h2 id="atributos">O que são atributos <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <p>
+            Os <mark>atributos</mark> são utilizados para <strong><u>fornecer informações adicionais</u></strong> sobre um elemento <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr>.
+        </p>
+        <p>
+            Eles são definidos <strong>dentro da tag de abertura</strong> de um elemento e são compostos por <strong>um nome e um valor</strong> <i>(<code>&lt;Tag nome="valor"&gt;</code>)</i>.
+        </p>
+        
+        <br><hr>
+        <h2 id="tags-exemplos">Exemplos de tags <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <h3>Tags de texto</h3>
+        <p>As tags de texto são utilizadas para exibir conteúdo textual na página web.</p>
+        <ol>
+            <li> <h1><code>&lt;h1&gt;</code> -Tag de título</h1></li>
+            <li> <h2><code>&lt;h2&gt;</code> -Tag de título</h2></li>
+            <li> <h3><code>&lt;h3&gt;</code> -Tag de título</h3></li>
+            <li> <h4><code>&lt;h4&gt;</code> -Tag de título</h4></li>
+            <li> <h5><code>&lt;h5&gt;</code> -Tag de título</h5></li>
+            <li> <h6><code>&lt;h6&gt;</code> -Tag de título</h6></li>
+            <li><p><code>&lt;p&gt;</code> - Tag de parágrafo</p></li>
+            <li><blockquote><code>&lt;blockquote&gt;</code> - Tag de citação</blockquote></li>
+        </ol>
+        <br>
+
+        <h3 id="links">Tags de links</h3>
+        <p>As tags de links são utilizadas para criar links para outras páginas web.</p>
+        <ol>
+            <li><a href="https://www.w3schools.com/html/html_links.asp" target="_blank"><code>&lt;a&gt;</code> - Tag de link</a></li>
+        </ol>
+        <br>
+
+        <h3>Tags de formatação</h3>
+        <p>As tags de formatação são utilizadas para formatar o texto na página web.</p>
+        <ol>
+            <li><strong><code>&lt;strong&gt;</code> - Tag de texto semanticamente intenso e em negrito</strong></li>
+            <li><b><code>&lt;b&gt;</code> - Tag de texto em negrito</b></li>
+            <li><em><code>&lt;em&gt;</code> - Tag de ênfase</em></li>
+            <li><em><code>&lt;i&gt;</code> - Tag de texto em itálico</em></li>
+            <li><mark><code>&lt;mark&gt;</code> - Tag de texto destacado</mark></li>
+            <li><u><code>&lt;u&gt;</code> - Tag de texto sublinhado</u></li>
+            <li><s><code>&lt;s&gt;</code> - Tag de texto riscado</s></li>
+            <li><code>&lt;code&gt;</code> - Tag de texto em código</li>
+        </ol>
+        <br>
+
+        <h3>Tags de lista</h3>
+        <p>As tags de lista são utilizadas para criar listas de itens na página web.</p>
+        <ol>
+            <li><code>&lt;ul&gt;</code> - Tag de lista não ordenada</li>
+            <li><code>&lt;ol&gt;</code> - Tag de lista ordenada</li>
+            <li><code>&lt;li&gt;</code> - Tag de item de lista</li>
+        </ol>
+        <br>
+        <br><hr>
+        <h2 id="atributos-exemplos">Exemplos de atributos <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <h3>Atributos de links</h3>
+        <p>Os atributos de links são utilizados para fornecer informações adicionais sobre um link.</p>
+        <ol>
+            <li><a href="#links">href - Atributo de site de destino</a></li>
+            <li><a href="#links" target="_blank">target - Atributo de modo de destino</a></li>
+        </ol>
+        <br>
+        
+        <h3>Atributos de cores</h3>
+        <p>Os atributos de cores são utilizados para fornecer informações adicionais sobre a cor de um elemento.</p>
+        <ol>
+            <li><p style="color: #00008b">color - Atributo de cor do texto</p></li>
+            <li><p style="background-color: #ff8c00">background-color - Atributo de cor de fundo</p></li>
+        </ol>
+        <br>
+        
+        <h3>Outros atributos</h3>
+        <p>Outros atributos são utilizados para fornecer informações adicionais sobre um elemento.</p>
+        <ol>
+            <li>id - Atributo de identificação</li>
+            <li>class - Atributo de classe</li>
+            <li>style - Atributo de estilo</li>
+            <li>title - Atributo de título</li>
+        </ol>
+        <br>
+        
+        
+        <br><hr>
+        <h2 id="citacao">Citação <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <h3 style="text-align: end; color: #ff8c00"><i>"Ao idealizar um futuro, viver o presente se torna imprescindível."</i></h3>
+        <blockquote style="text-align: end;" id="citacao">
+            <span style="background-color: #eee;"><i>Vitor Sauzen.</i> <small style="color: #888">eu mesmo</small></span>
+        </blockquote>
+
+        <br><hr>
+        <h2 id="referencias">Referências <small><small><a href="#indice">(voltar)</a></small></small></h2>
+        <ul>
+           <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a></li>
+           <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li> 
+           <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Wikipedia HTML</a></li>
+        </ul>
+        
+</body>
+</html>
